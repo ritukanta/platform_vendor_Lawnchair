@@ -7,7 +7,7 @@
 ### Clone
 Clone this repo into vendor/Lawnchair(only)
 ```
-git clone https://github.com/ritukanta/vendor_Lawnchair.git -b 12 vendor/Lawnchair
+git clone https://github.com/ritukanta/vendor_Lawnchair.git -b 11 vendor/Lawnchair
 ```
 And add these lines to rom_devicename.mk of ur dt
 ```
