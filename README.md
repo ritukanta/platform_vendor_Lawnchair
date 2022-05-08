@@ -1,4 +1,4 @@
-### Lawnchair Launcher to build with ur any 12 ROM
+### Lawnchair Launcher to build with ur any 11 ROM
 
 <img src="https://github.com/ritukanta/vendor_Lawnchair/blob/12/lawnchair.jpg?raw=true">
 
