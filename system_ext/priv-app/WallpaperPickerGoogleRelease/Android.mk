@@ -2,11 +2,10 @@ LOCAL_PATH:= $(call my-dir)
 include $(CLEAR_VARS)
 
 LOCAL_MODULE := WallpaperPickerGoogleRelease
-LOCAL_MODULE_STEM := WallpaperPickerGoogleRelease.apk
 LOCAL_SRC_FILES := WallpaperPickerGoogleRelease.apk
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
-LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_CERTIFICATE := platform
 LOCAL_SYSTEM_EXT_MODULE := true
 LOCAL_PRIVILEGED_MODULE := true
 LOCAL_OVERRIDES_PACKAGES := WallpaperPicker WallpaperPicker2 WallpaperCropper
