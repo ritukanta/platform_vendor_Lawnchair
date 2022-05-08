@@ -12,8 +12,6 @@ PRODUCT_COPY_FILES += \
     vendor/Lawnchair/lib/libnrb.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libnrb.so \
     vendor/Lawnchair/lib64/libnrb.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libnrb.so \
     vendor/Lawnchair/system_ext/etc/permissions/privapp-permissions-com.google.android.apps.wallpaper.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-com.google.android.apps.wallpaper.xml \
-    vendor/Lawnchair/system_ext/priv-app/QuickAccesswallet/oat/arm64/QuickAccesswallet.odex:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/QuickAccesswallet/oat/arm64/QuickAccesswallet.odex \
-    vendor/Lawnchair/system_ext/priv-app/QuickAccesswallet/oat/arm64/QuickAccesswallet.vdex:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/QuickAccesswallet/oat/arm64/QuickAccesswallet.vdex \
     vendor/Lawnchair/system_ext/priv-app/WallpaperPickerGoogleRelease/oat/arm64/WallpaperPickerGoogleRelease.odex:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/WallpaperPickerGoogleRelease/oat/arm64/WallpaperPickerGoogleRelease.odex \
     vendor/Lawnchair/system_ext/priv-app/WallpaperPickerGoogleRelease/oat/arm64/WallpaperPickerGoogleRelease.vdex:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/WallpaperPickerGoogleRelease/oat/arm64/WallpaperPickerGoogleRelease.vdex
 
@@ -22,7 +20,4 @@ PRODUCT_PACKAGES += \
     Lawnfeed \
     LawnIcons \
     QuickSwitchOverlay \
-    PixelThemesStub \
-    QuickAccesswallet \
     WallpaperPickerGoogleRelease
-
