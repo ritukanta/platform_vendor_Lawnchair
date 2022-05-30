@@ -1,0 +1,30 @@
+android_app_import {
+	name: "Lawnchair",
+	apk: "priv-app/Lawnchair/Lawnchair.apk",
+        overrides: ["Launcher", "Launcher2", "Launcher3", "Launcher3QuickStep", "NexusLauncherRelease", "Home"],
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+}
+
+        name: "Lawnfeed",
+        apk: "priv-app/Lawnfeed/Lawnfeed.apk",
+        presigned: true,
+        dex_preopt: {
+                enabled: false,
+        },
+        privileged: true,
+}
+
+        name: "Lawnicons",,
+        apk: "priv-app/Lawnicons/Lawnicons.apk",
+        overrides: ["ThemedIconsOverlay"],
+        presigned: true,
+        dex_preopt: {
+                enabled: false,
+        },
+        privileged: true,
+}
+
