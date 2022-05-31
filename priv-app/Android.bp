@@ -1,7 +1,7 @@
 android_app_import {
 	name: "Lawnchair",
 	apk: "Lawnchair/Lawnchair.apk",
-        overrides: ["Launcher", "Launcher2", "Launcher3", "Launcher3QuickStep", "NexusLauncherRelease", "Home"],
+        overrides: ["Launcher", "Launcher2", "Launcher3", "Launcher3QuickStep", "NexusLauncherRelease", "Home", "Trebuchet", "ParanoidLauncher"],
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
